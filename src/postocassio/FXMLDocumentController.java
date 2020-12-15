@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package views;
+package postocassio;
 
 import java.net.URL;
 import java.util.ResourceBundle;
@@ -16,17 +16,17 @@ import models.bomba;
  *
  * @author Secco
  */
+
 public class FXMLDocumentController implements Initializable {
     private bomba objBomba;
     @FXML private TextField precoGasolina;
     
     @Override
     public void initialize(URL url, ResourceBundle rb) {
-        System.out.print(objBomba.getsValorLitro());
         precoGasolina.setText("sValorLitro");
     }
     @FXML
     private void setPrecoGasolinaText(MouseEvent event) {
-        precoGasolina.setText(objBomba.getsValorLitro());
+        System.out.print(objBomba.getsValorLitro());
     }
 }

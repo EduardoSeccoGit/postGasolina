@@ -3,15 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package views;
+package postocassio;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
-import models.bomba;
-
 /**
  *
  * @author Secco
@@ -31,9 +29,8 @@ public class PostoCassio extends Application {
     /**
      * @param args the command line arguments
      */
-
     public static void main(String[] args) {
-
+        launch(args);
     }
     
 }
